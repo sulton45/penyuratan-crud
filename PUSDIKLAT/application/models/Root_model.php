@@ -1,0 +1,15 @@
+<?php 
+
+/**
+ * summary
+ */
+class Root_model extends CI_Model
+{
+    /**
+     * summary
+     */
+    public function getAllmahasiswa()
+    {
+        return $this->db->get('mahasiswa')->result_array();
+    }
+}
